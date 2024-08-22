@@ -9,6 +9,7 @@ interface PermissionCardProps {
   iconUrl?: string;
 }
 
+// function starts
 const Alert = ({ title, iconUrl }: PermissionCardProps) => {
   return (
     <section className="flex-center h-screen w-full">
